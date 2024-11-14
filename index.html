@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roblox - AI</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="Icon" href="./RobloxAIFavicon.png"
+</head>
+<body>
+<div class="RBX-Background">
+  <img src="./background.png">
+</div>
+
+<div class="chat-container">
+    <div class="chat-window" id="chatWindow">
+        <div class="message bot-message">Hello! I'm the Roblox Helper Bot. How can I assist you?</div>
+    </div>
+    <input type="text" id="userInput" placeholder="Type your message here..." onkeydown="if(event.key === 'Enter') sendMessage()">
+    <button onclick="sendMessage()">Send</button>
+</div>
+
+<script src="chatbot.js"></script>
+</body>
+</html>
