@@ -1,10 +1,17 @@
+@font-face {
+    font-family: Builder Sans;
+    src: url(https://css.rbxcdn.com/e1f6e032096b2924e561c3928b9dc73d-BuilderSans-Regular.woff2) format("woff2"),url(https://css.rbxcdn.com/3a390ad6e476846a971ab5923cb9ff1e-BuilderSans-Regular.woff) format("woff");
+    font-weight: 400;
+    font-style: normal
+}
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Builder Sans;
     background-color: #232527;
     background-image: url('d82801b936c26e174c4e782510a72d78-roblox_ai_background_08292022.png');
 }
